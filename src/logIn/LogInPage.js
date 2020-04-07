@@ -3,14 +3,17 @@ import Navbar from './Navbar'
 import BodyLeft from './LeftBody'
 import BodyRight from './RightBody'
 import Footer from './Footer'
-
+import '../style/log_in_page/loginPage.css'
 export default class LogInPage extends Component {
     render() {
         return (
             <div>
                 <Navbar />
-                <BodyLeft />
-                <BodyRight />
+                <div className="mainBody">
+                    <BodyLeft />
+                    <BodyRight />
+                </div>
+
                 <Footer />
             </div>
         )

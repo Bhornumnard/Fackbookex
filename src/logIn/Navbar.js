@@ -14,18 +14,18 @@ export default class Navbar extends Component {
                     <div>
                         <table>
                             <tr>
-                                <td></td>
-                                <td></td>
+                                <td>อีเมล์หรือโทรศัพท์</td>
+                                <td>รหัสผ่าน</td>
 
                             </tr>
                             <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text"/></td>
+                                <td><input type="text"/></td>
+                                <td><button>เข้าสู่ระบบ</button></td>
                             </tr>
                             <tr>
                                 <td></td>
-                                <td></td>
+                                <td>ลืมบัญชีใช่หรือไม่</td>
                             </tr>
                         </table>
 
