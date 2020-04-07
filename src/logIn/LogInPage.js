@@ -7,7 +7,7 @@ import '../style/log_in_page/loginPage.css'
 export default class LogInPage extends Component {
     render() {
         return (
-            <div>
+            <div className="fullBody">
                 <Navbar />
                 <div className="mainBody">
                     <BodyLeft />

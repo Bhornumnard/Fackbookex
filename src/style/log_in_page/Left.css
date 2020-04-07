@@ -1,4 +1,9 @@
 
+.leftBody {
+    min-width: 180px;
+    width: 532px;
+    padding-right: 48px;
+}
 .leftBody .rowInLeft:nth-child(1){
     font-size: 38px;
     font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
@@ -24,6 +29,7 @@
     border-radius: 4px;
     box-shadow: 0 0 0 1px #dddfe2;
     text-align: center;
+    background-color: #ffffff;
 }
 
 .leftBody .rowInLeft:nth-child(3) .text{
