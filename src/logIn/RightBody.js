@@ -56,7 +56,7 @@ export default class RightBody extends Component {
 
                     </Col>
                     <p class="shortText">เมื่อคลิก สมัคร แสดงว่าคุณยินยอมตาม<a href="#" target="_blank" rel="nofollow">ข้อกำหนด</a> <a href="#" id="privacy-link" target="_blank" rel="nofollow">นโยบายข้อมูล</a> และ<a href="#" id="cookie-use-link" target="_blank" rel="nofollow">นโยบายคุกกี้</a>ของเราแล้ว คุณอาจได้รับการแจ้งเตือนทาง SMS จากเราและสามารถเลือกไม่รับได้ทุกเมื่อ</p>
-                    <Col span={24} className="inputRight">
+                    <Col span={24} className="inputRight buttonBlock">
                     <button className="signUp">สมัคร</button>
                     </Col>
                     <Col span={24} className="lastText">
