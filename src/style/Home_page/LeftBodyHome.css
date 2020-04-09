@@ -1,0 +1,133 @@
+.Left {
+    height: 100vh;
+    padding-top: 12px;
+    width: 190px;
+    top: 0px;
+  }
+  
+  .Left .unit {
+    height: 28px;
+    margin-bottom: 10px;
+    padding: 0px 5px 2px 2px;
+    display: block;
+  }
+  
+  .Left .topicLeftIcon, .Left .topicLeftIcon:hover{
+    color: #616770;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+  }
+  
+  
+  .Left img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 2px;
+    position: relative;
+    bottom: 1.5px;
+  }
+  
+  .Left .unit a,
+  .Left .first a {
+    color: #1d2129;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  
+  .Left .unit:hover > a .fa-ellipsis-h {
+    background-color: #f5f6f7;
+    border: 1px solid #dddfe2;
+    border-radius: 2px;
+    color: #1d2129;
+    display: block;
+    height: 28px;
+    cursor: pointer;
+  }
+  .Left .unit:hover .fa-ellipsis-h, .Left .unit:hover,  .Left .unit .fa-ellipsis-h:hover {
+    visibility: visible;
+    background-color: #f5f6f7;
+    cursor: pointer;
+  }
+  
+  .Left .unit .fa-ellipsis-h {
+    font-size: 15px;
+    vertical-align: baseline;
+    text-indent: 5px;
+    color: #90959c;
+    padding: 5px 5px 5px 0px;
+    height: 28px;
+    visibility: hidden;
+  }
+  
+  .Left .unit a .img {
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+  }
+  
+  .Left .first .sx_9ccd4c,
+  .Left .first:hover .isx_9ccd4c {
+    font-weight: 600;
+    font-size: 15px;
+    vertical-align: baseline;
+    text-indent: 5px;
+    color: #90959c;
+    margin-left: 5px;
+  }
+  
+  .Left .fas {
+    float: right;
+  }
+  
+  .Left .first {
+    list-style: none;
+    display: block;
+  }
+  
+  .Left .first li {
+    text-decoration: none;
+    font-size: 15px;
+    color: #1d2129;
+  }
+  
+  .Left .first li:hover  , .Left .first li:nth-child(1){
+    background-color: #f5f6f7;
+    border: 1px solid #dddfe2;
+    border-radius: 2px;
+    color: #1d2129;
+    display: block;
+    height: 28px;
+    cursor: pointer;
+    min-width: 190px;
+  }
+  
+  .Left .first li:nth-child(1) .fa-ellipsis-h {
+    visibility: visible;
+    font-size: 15px;
+    vertical-align: baseline;
+    text-indent: 5px;
+    color: #90959c;
+    padding: 5px 5px 5px 0px;
+  }
+  
+  .Left .first li .fa-ellipsis-h {
+    visibility: hidden;
+  }
+  
+  .Left .first li:hover .fa-ellipsis-h {
+    visibility: visible;
+    font-size: 15px;
+    vertical-align: baseline;
+    text-indent: 5px;
+    color: #90959c;
+    padding: 5px 5px 5px 0px;
+    height: 28px;
+  }
+  
+  .Left .first .img, .Left .second{
+      margin: 0px 5px;
+  }
+  

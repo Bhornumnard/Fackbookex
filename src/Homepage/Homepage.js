@@ -9,9 +9,9 @@ import '../style/Home_page/Homepage.css'
 export default class Homepage extends Component {
     render() {
         return (
-           <Col>
+           <Col className="fullBody">
                 <Row span={24} className="navHome"><NavHome /></Row>
-                <Row span={24}>
+                <Row span={24} className="bodyHome">
                     <Col><Left /></Col>
                     <Col><Center /></Col>
                     <Col><Right /></Col>
