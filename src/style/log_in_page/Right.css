@@ -87,8 +87,7 @@
   color: #385898;
   text-align: left;
 }
-.RightBody .inputRight .buttonBlock{
-}
+
 .RightBody .inputRight .signUp {
   margin: 10px 0px;
   min-width: 194px;
@@ -122,4 +121,5 @@
     color: #385898;
     cursor: pointer;
     text-decoration: none;
+    margin-bottom: 40px;
 }

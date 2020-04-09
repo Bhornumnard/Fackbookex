@@ -13,8 +13,10 @@ export default class LogInPage extends Component {
                     <BodyLeft />
                     <BodyRight />
                 </div>
-
-                <Footer />
+                <div className="footerLogin">
+                  <Footer />  
+                </div>
+                
             </div>
         )
     }

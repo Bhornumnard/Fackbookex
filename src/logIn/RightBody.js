@@ -34,7 +34,6 @@ export default class RightBody extends Component {
                             </select>
                             <select>
                             <option selected value="วัน">วัน</option>
-
                             </select>
                             <select>
                             <option selected value="วัน">วัน</option>
