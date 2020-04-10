@@ -48,6 +48,7 @@
 .postBox .item:nth-child(2) .inputPostBox div{
     color: #91959d;
     display: inline-block;
+    display: none;
 }
 
 .postBox .item:nth-child(2) .inputPostBox input{
@@ -58,7 +59,7 @@
     border: 0px;
     background-color: transparent;
     /* display: inline-block; */
-    display: none;
+    /* display: none; */
 }
 
 .postBox .item:nth-child(2) .inputPostBox input::placeholder{
@@ -169,8 +170,8 @@ left: 5px;
     height: 28px;
     font-size: 14px;
 }
-
-.postBox .item:nth-child(4), .postBox .item:nth-child(5){
+/* , .postBox .item:nth-child(4) */
+.postBox .item:nth-child(4){
     display:none;
 }
 
@@ -183,6 +184,7 @@ left: 5px;
     background-color: #ffffff;
     height: 100%;
     padding: 12px 12px 0px;
+    margin-bottom: 12px;
 }
 
 .postShow .post .headPost{
@@ -224,6 +226,7 @@ left: 5px;
 .postShow .post .comment{
     margin-top: 6px;
     width: 100%;
+    padding-left: 12px;
     margin-bottom: 12px;
 }
 
