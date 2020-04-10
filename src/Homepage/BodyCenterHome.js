@@ -91,14 +91,15 @@ export default class BodyCenterHome extends Component {
         }
         
         postText = e => {
-            // let time= new date();
-            //     currentDate = getTe
-            let postText = [...this.state.post,
+            let time = new Date();
+            let  now = time.getDate()
+                
+            let postText = [
                 {id : this.state.post.length, 
                     author : {name: "พรอำนาจ วนาศรีสันต์", pic:"https://scontent.fbkk5-3.fna.fbcdn.net/v/t1.0-1/cp0/p60x60/49948478_2111075422265261_7329281039728115712_n.jpg?_nc_cat=111&_nc_sid=dbb9e7&_nc_eui2=AeEtLIT4QsLIsuSFatZGQQ3UrH2IiavHiKisfYiJq8eIqKFfr0MPBVdbaTXumcvhlX2StbOM0cRKpl9PBeZTx5J4&_nc_ohc=BjuyT1svNncAX8rFZGh&_nc_ht=scontent.fbkk5-3.fna&oh=21e91b0ad822233a5ff262096940ecee&oe=5EB46137 "}, 
                     message: this.state.value, 
-                    date : "2 นาทีที่แล้ว",
-                commentList: []} ]
+                    date : now,
+                commentList: []},...this.state.post ]
         this.setState({post : postText, value: ""})
         
             }
@@ -175,6 +176,10 @@ export default class BodyCenterHome extends Component {
                                     </ul>
                                 </Col>
                             </Row>
+                            <Row>
+
+                                {/* เก็บ comment */}
+                            </Row>
                         </Col>
 
                     </Row>
@@ -203,6 +208,9 @@ export default class BodyCenterHome extends Component {
                                         <li><a class="_2nj7 _18vj _18vk _p" data-ft="{ &quot;tn&quot;: &quot;J&quot;, &quot;type&quot;: 25 }" href="#" role="button" tabindex="0" title="ส่งลิงก์นี้ให้เพื่อนหรือโพสต์ลงในไทม์ไลน์ของคุณ" id="js_3zz" aria-controls="u_4j_0">แชร์</a></li>
                                     </ul>
                                 </Col>
+                            </Row>
+                            <Row>
+                                {/* comment */}
                             </Row>
                         </Col>
 
