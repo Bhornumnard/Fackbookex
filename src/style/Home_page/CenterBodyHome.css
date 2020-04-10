@@ -9,6 +9,7 @@
     border : 1px solid #dddfe2;
     border-radius: 2px;
    background-color: #f5f6f7;
+   margin-bottom: 12px;
 }
 .postBox .item:nth-child(1){
     background-color: #e9ebee;
@@ -171,4 +172,69 @@ left: 5px;
 
 .postBox .item:nth-child(4), .postBox .item:nth-child(5){
     display:none;
+}
+
+.CenterBody .postShow{
+    margin-bottom: 12px;
+}
+.postShow .post{
+    border : 1px solid #dddfe2;
+    border-radius: 2px;
+    background-color: #ffffff;
+    height: 100%;
+    padding: 12px 12px 0px;
+}
+
+.postShow .post .headPost{
+    display: flex;
+
+}
+
+.post .headPost .box img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #dddfe2;
+    margin-right: 8px;
+}
+
+
+
+.post .headPost .box:nth-child(2) a{
+    color: #385898;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-box;
+}
+
+.post .headPost .box .headline{
+    display : flex;
+    justify-content: space-between;
+    width: 420px;
+}
+
+.post .headPost .time{
+    color: #616770;
+    font-size: 14px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+.postShow .post .comment{
+    margin-top: 6px;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.postShow .post .IconPackage{
+    margin: 0px 12px;
+    border-top: 1px solid #dddfe2;
+}
+
+.postShow .post .IconPackage ul{
+    list-style: none;
+    display:  flex;
+    justify-content: space-evenly;
+    margin: 5px 0px;
 }
